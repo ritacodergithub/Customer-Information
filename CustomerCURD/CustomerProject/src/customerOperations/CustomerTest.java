@@ -32,7 +32,7 @@ public class CustomerTest {
 			
 			switch (choice) {
 			case 1: {
-				System.out.println("Enter How many food you want to add");
+				System.out.println("Enter How many Customer Details you want to add");
 				int num=sc.nextInt();
 				for(int i=1; i<=num ; i++) {
 					System.out.println("Enter Customer Name : ");
