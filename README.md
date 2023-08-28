@@ -27,12 +27,12 @@ Step 3: Execute the below command first to create a new Table. <br>
 ```ruby
 CREATE TABLE CUSTOMER (cName varchar(50) NOT NULL, cEmailId varchar(50) PRIMARY KEY, cPassword varchar(50) NOT NULL, cAddress varchar(50), cContactNo varchar(50)) NOT NULL;
 ```
-#### Insert details inside the customer :- <br>
+Step 4: Insert details inside the customer :- <br>
 ```ruby
 INSERT INTO CUSTOMER VALUES('RAJ','RAJ@123','RAJ123','VASHI','9999898989');
 INSERT INTO CUSTOMER VALUES('RITA','RITA@123','RITA123','VASHI','9999898989');
 ```
-Step 4: Now Execute the below  query to check if the tables are created successfully.
+Step 5: Now Execute the below  query to check if the tables are created successfully.
 ```ruby
 SELECT * FROM  CUSTOMER;
 ```
